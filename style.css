@@ -1,0 +1,114 @@
+body{
+	background-color:lightblue;
+	margin:0px;
+	color:black;
+	font-family:helvetica;
+}
+
+ul{
+	list-style:none;
+}
+
+li{
+	display:inline;
+}
+
+a{
+	text-decoration:none;
+}
+
+/*================= HEADER =============*/
+
+
+#header{
+	background:linear-gradient(to right, lightblue, red);
+	padding:10px;
+	margin:10px;
+	border-radius:10px;
+	box-shadow:0px 0px 10px darkred;
+}
+
+#header h1{
+	text-align:center;
+	color:white;
+	font-weight:bold;
+}
+
+/*================= NAVBAR =============*/
+#navbar{
+	text-align:center;
+	margin:10px;
+	background-color:black;
+	border-radius:10px;
+}
+
+#navbar ul{
+	padding:5px;
+}
+
+#navbar ul li{
+	margin:10px;
+}
+
+#navbar ul li a{
+	color:lightblue;
+}
+
+#navbar ul li a:hover{
+	color:black;
+	background-color:white;
+	padding:5px;
+}
+
+/*================= MAIN =============*/
+
+.main{
+	margin:10px;
+	margin-right:260px;
+	padding:5px;
+	border-radius:10px;
+	background-color:lightgrey;
+}
+
+.main h2{
+	color:red;
+}
+
+.main p a{
+	color:blue;
+	text-decoration:none;
+}
+
+.main p a:hover{
+	color:lightblue;
+}
+
+/*================= SIDEBAR =============*/
+
+.sidebar{
+	background-color:#e5e4d7;
+	margin: 0px 10px 10px 10px;
+	border-radius:5px;
+	padding:20px;
+	font-size:105%;
+	float:right;
+	width:200px;
+	clear:right;
+}
+
+/*================= FOOTER =============*/
+
+#footer{
+	background-color:darkgrey;
+	margin:0px;
+	margin-top:40px;
+	padding:10px;
+	text-align:center;
+}
+#footer ul li{
+	margin-right:10px;
+}
+
+#footer ul li a, #footer p{
+	color:black;
+}
